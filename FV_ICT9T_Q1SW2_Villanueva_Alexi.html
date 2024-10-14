@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<title>Q1Seatwork2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div id="container1">
+	<h1><span style="color: #447787; font-family: Poppins, sans-serif; font-style: italic;">Club Membership</span>
+		<span style="font-family: Poppins, sans-serif; font-style: normal;"> <span style="color: white;"> Form</span></h1>
+</div>
+
+<br><br>
+
+<div class="container2">
+	<form action="">
+		<label for="name">Name :</label>
+		<br>
+		<input type="text" id="name" name="name" placeholder="Type here..." required>
+		<br><br>
+
+		<label for="age">Age :</label>
+		<br>
+		<input type="number" id="age" name="age">
+		<br><br>
+
+		<label for="section">Grade & Section :</label>
+		<br>
+		<select id="sections" name="sections">
+			<option value="9E">9-Emerald</option>
+			<option value="9R">9-Ruby</option>
+			<option value="9S">9-Sapphire</option>
+			<option value="9T">9-Topaz</option>
+		</select>
+		<br><br>
+
+		<label for="clubs">Choose a club :</label>
+		<br>
+		<select id="clubs" name="clubs" required>
+			<option value="Glee">Glee Club</option>
+			<option value="Dance">Dance Club</option>
+			<option value="March">Marching Band</option>
+			<option value="Comms">Communications Club</option>
+		</select>
+		<br><br>
+
+		<label for="why">Why do you want to join this club?</label>
+		<br>
+		<textarea rows="5" cols="40" placeholder="Type your answer here..."></textarea>
+		<br><br>
+
+		<input type="submit" id="submit" name="submit" value="Submit form">
+	</form>
+</div>
+
+</body>
+</html>
